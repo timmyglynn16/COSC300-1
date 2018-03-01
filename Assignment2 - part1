@@ -1,3 +1,5 @@
+package assignment2;
+
 /* Driver class tests the Josephus problem
  *  - enter the input values n, k 
  *  - calls necessary methods to perform the Josephus algorithm
