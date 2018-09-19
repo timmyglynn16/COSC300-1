@@ -33,3 +33,15 @@ Enter n and k > 10 3
 4 10 ^
 4 is the last one alive.
 
+ASSIGNMENT 4:
+For this assignment, you are to empirically compare using a binary heap vs. a red-black tree for
+implementing the priority queue ADT (PQ). Write two programs, one which implements the PQ
+operations using a binary heap, and the other which implements the PQ operations using a red-black
+tree. You may use code from class, code from the book, or the appropriate Java APIs. If you use the
+Java APIs (and can't modify the code), you will have to be clever about how to instrument the code.
+Write a main program that exercises the main operations of the ADT - efficiently create a PQ with N
+elements, and then execute a total of N/10 operations, both add and remove, on the PQ, taking N to be
+100, 1,000, 10,000, 100,000, and 1,000,000. Compare the two implementations in terms of running
+time and the number of key comparisons, both for creation, and doing the add/remove operations. Use
+a spreadsheet to record your results and submit that along with your code. 
+
